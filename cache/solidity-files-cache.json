@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/beko/projects/web3/lock-projects/contracts/Lock.sol": {
-      "lastModificationDate": 1662362502225,
-      "contentHash": "e47139c6d2ed0218e4830a43365f4f2b",
+      "lastModificationDate": 1662378400918,
+      "contentHash": "776adc865d1b72ce7c9c77ceace6f564",
       "sourceName": "contracts/Lock.sol",
       "solcConfig": {
         "version": "0.8.9",
@@ -29,7 +29,8 @@
         }
       },
       "imports": [
-        "./Token.sol"
+        "./Token.sol",
+        "hardhat/console.sol"
       ],
       "versionPragmas": [
         "^0.8.9"
@@ -219,6 +220,41 @@
       ],
       "artifacts": [
         "Context"
+      ]
+    },
+    "/home/beko/projects/web3/lock-projects/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1662022091879,
+      "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
       ]
     }
   }
